@@ -19,7 +19,7 @@
 #pragma once
 
 #include <cstdint>
-
+#undef PROPERTY_VALUE_MAX
 #define PROPERTY_VALUE_MAX 92
 #define BUILD_SANITY_PROPERTY_VALUE_MAX 92
 
